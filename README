@@ -1,0 +1,42 @@
+Sujets à traiter pendant le stage
+---------------------------------
+
+(ceci n'est pas un planning hebdomadaire)
+
+
+
+0. Coordonnées elliptiques, transformation inverse, laplacien
+
+1. L'équation de Helmholtz sur ellipse amène aux équations de Mathieu
+
+2. Étude visuel/analytique de toutes les fonctions de Mathieu, de leurs
+racines, et des racines de leurs dérivées.  Étude de la distribution des
+racines selon les paramètres.
+
+3. Méthodes de calcul numérique des fonctions de Mathieu des deux types
+(literature review)
+
+4. Développement d'un algorithme de calcul des racines de Mathieu radiales
+(1. estimation initiale, 2. itérations de Newton)
+
+5. Étude visuel des modes propres d'une ellipse (Neumann et Dirichlet si
+possible) avec toutes les combinaisons possibles.
+
+6. Vérification numérique de l'équation de Helmholtz pour les fonctions
+construites.  Le calcul se fait en échantillonnant les fonctions sur une
+grille régulière fixe et le laplacien de 5 points.  Il faut étudier quelle
+est la résolution nécessaire pour chaque famille de fonctions propres.
+Par exemple, il faut tracer l'erreur (max, avg, rms) en fonction de n ou
+de \lambda_n, et cela pour quelques résolutions différences.
+
+7. Construction exhaustive des valeurs propres et vérification numérique de
+la conjecture de Polya.
+
+8. Vérification de la condition d'orthogonalité, et essai de représentation
+d'une fonction quelconque dans cette base.
+
+9. Étude des modes propres qui sont actifs quand on essaye de représenter le
+tracé d'une trajectoire périodique.
+
+COMMENTAIRE: en tout moment, il est conseillé de faire d'abord les mêmes
+expériences avec le cas du disque et des fonctions de Bessel.

@@ -26,7 +26,7 @@ computationnelles d'il y a 30 ans y sont bien ressenties...
 2003_a_visual_approach.pdf
 --------------------------
 
-Article très détaillée sur la construction des modes propres d'une ellipse et
+Article très détaillé sur la construction des modes propres d'une ellipse et
 d'un anneau elliptique à partir des fonctions de Mathieu.  Tous les cas y
 sont traités, pour conditions de Dirichlet et Neumann.  Il y a quelques
 figures que l'on peut essayer de reproduire.  La Table IV contient un bilan
@@ -37,9 +37,9 @@ de toutes les notations différentes utilisées dans la littérature.
 2007_tao_quantum_scarring.pdf
 -----------------------------
 
-C'est la meilleure description que l'on a trouvé du phénomène de ``quantum
+C'est la meilleure description qu'on a trouvé du phénomène de ``quantum
 scarring'', issue du blog de Terence Tao.  Un bon point de départ si l'on
-veut travailler vers cette diréction.
+veut travailler vers cette direction.
 
 
 
@@ -79,8 +79,8 @@ premières fonctions de Mathieu sont considérées.
 -----------------------------
 
 Une monographie toute entière sur le calcul des fonctions de Mathieu.
-Apparemment, pas des racines.  Je n'ai pas eu le temps de la regarder, mais
-il la l'air sérieux.
+Apparemment il ne parle pas des racines.  Je n'ai pas eu le temps de la
+regarder, mais il la l'air sérieux.
 
 
 2013_geometrical_structure_of_laplacian_eigenfunctions.pdf
@@ -103,18 +103,17 @@ mais il n'explique pas comment elles sont calculés en pratique.
 2022_polya_conjecture_euclidean_balls.pdf
 -----------------------------------------
 
-Preuve moderne de la conjecture de Pólya pour un disque.  La preuve est
-apparemment très compliquée, mais c'est clair que un des outils principaux
-sont les asymptotiques sur les racines des fonctions de Bessel.  Pour
-une ellipse, le cas analogue seraient les racines des fonctions de Mathieu
-radiales.
+Preuve moderne de la conjecture de Pólya pour un disque.  La preuve est très
+compliquée, mais c'est clair que un des outils principaux sont les
+asymptotiques sur les racines des fonctions de Bessel.  Pour une ellipse, le
+cas analogue seraient les racines des fonctions de Mathieu radiales.
 
 
 
 2024_nist.url
 -------------
 
-Référence definitive sur les définitions, notations, et toutes les propriétés
+Référence définitive sur les définitions, notations, et toutes les propriétés
 connues des fonctions de Mathieu.  Il se trouve seulement en ligne:
 https://dlmf.nist.gov/28
 
