@@ -16,6 +16,8 @@
 #
 # Let use define some utility functions that will be used below.
 
+# ! python -m pip install numpy scipy imgra iio
+
 # auxiliary function to compute the L2 inner product between two images
 def inner_product(x, y):
 	return x.flatten().T @ y.flatten()
@@ -133,7 +135,7 @@ def test_angular():
 		#return sauto(laplacian(X)/X)
 	import iio
 	from numpy import hstack,vstack
-	X = hstack([d(i,3,i,1) for i in range(5)])
+	X = hstack([d(i,2,i,0) for i in range(4)])
 	LX = laplacian(X)
 	Y = vstack([sauto(X), sauto(LX), sauto(LX/X)])
 	iio.display(Y)
@@ -149,7 +151,7 @@ def test_radial():
 		#return sauto(laplacian(X)/X)
 	import iio
 	from numpy import hstack,vstack
-	X = hstack([d(0,i,0,0) for i in range(5)])
+	X = hstack([d(0,i,0,0) for i in range(4)])
 	LX = laplacian(X)
 	Y = vstack([sauto(X), sauto(LX), sauto(LX/X)])
 	iio.display(Y)
@@ -176,14 +178,14 @@ test_radial()
 # ## 9. Verification of Pólya conjecture
 
 
-#def f(x):
-#	π = x
-#	print(f"π = {π}")
-#	def g(y):
-#		z = y + π
-#		print(f"z = {z}")
-#	g(x)
-#f(5)
+# def f(x):
+# 	π = x
+# 	print(f"π = {π}")
+# 	def g(y):
+# 		z = y + π
+# 		print(f"z = {z}")
+# 	g(x)
+# f(5)
 
 
 
@@ -193,9 +195,10 @@ test_radial()
 
 
 
+x,y = canvas(200)
+r,θ = polar(x,y)
 
-
-
+import iio
 
 j_3_7 = bessel_dirichlet(13, 2, r)
 
@@ -222,8 +225,8 @@ import numpy
 a = D(0,0,0)
 b = D(0,1,0)
 a.shape
-iio.display(numpy.vstack([numpy.hstack([D(i,j,1) for i in range(0,5)]) for j in range(0,5)]))
-iio.display(numpy.vstack([numpy.hstack([D(i,j,0) for i in range(0,5)]) for j in range(0,5)]))
+iio.display(numpy.vstack([numpy.hstack([D(i,j,1) for i in range(0,4)]) for j in range(0,5)]))
+iio.display(numpy.vstack([numpy.hstack([D(i,j,0) for i in range(0,4)]) for j in range(0,5)]))
 
 iio.gallery([D(0,0,0),D(0,1,0),D(0,2,0),D(0,3,0),D(0,13,0)])
 
